@@ -1,11 +1,11 @@
 import React from 'react'
 
 import { useContext } from 'react';
-import SiteContext from './context/SiteContext'
+import SiteContext, { Context } from './context/SiteContext'
 
 export default function SwitchLang() {
 
-    const { lang, setLang } = useContext(SiteContext);
+    const { lang, setLang } = useContext(Context);
 
     return (
         <div>
